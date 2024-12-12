@@ -5,12 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import SignIn from "./ui/SignIn/SignIn";
+import LifeCycleDemo from "./lifecycle/LifeCycleDemo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <SignIn />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <LifeCycleDemo />
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
